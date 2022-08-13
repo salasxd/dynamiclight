@@ -1,0 +1,142 @@
+[
+    {
+        "name": "minecraft:torch",
+        "light": 15
+    },
+    {
+        "name": "minecraft:orange_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:white_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:green_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:brown_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:red_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:magenta_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:pink_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:black_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:yellow_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:purple_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:blue_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:cyan_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:lime_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:gray_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:light_gray_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:light_blue_candle",
+        "light": 5
+    },
+    {
+        "name": "minecraft:sea_pickle",
+        "light": 4
+    },
+    {
+        "name": "minecraft:redstone_torch",
+        "light": 8
+    },
+    {
+        "name": "minecraft:shroomlight",
+        "light": 13
+    },
+    {
+        "name": "minecraft:redstone",
+        "light": 4
+    },
+    {
+        "name": "minecraft:magma_cream",
+        "light": 1
+    },
+    {
+        "name": "minecraft:enchanted_book",
+        "light": 5
+    },
+    {
+        "name": "minecraft:redstone_block",
+        "light": 4
+    },
+    {
+        "name": "minecraft:soul_lantern",
+        "light": 15
+    },
+    {
+        "name": "minecraft:lantern",
+        "light": 15
+    },
+    {
+        "name": "minecraft:experience_bottle",
+        "light": 4
+    },
+    {
+        "name": "minecraft:soul_torch",
+        "light": 15
+    },
+    {
+        "name": "minecraft:lit_pumpkin",
+        "light": 15
+    },
+    {
+        "name": "minecraft:magma",
+        "light": 5
+    },
+    {
+        "name": "minecraft:ochre_froglight",
+        "light": 15
+    },
+    {
+        "name": "minecraft:verdant_froglight",
+        "light": 15
+    },
+    {
+        "name": "minecraft:pearlescent_froglight",
+        "light": 15
+    },
+    {
+        "name": "minecraft:crying_obsidian",
+        "light": 10
+    }
+]

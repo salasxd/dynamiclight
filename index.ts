@@ -2,7 +2,7 @@ import { CANCEL } from "bdsx/common";
 import { events } from "bdsx/event";
 import { DateFromTime, LoadFile, Print, SaveFile, Time, TypePrint } from "./utils";
 
-export const about = JSON.parse(LoadFile("","package")||"{}");
+export const about = JSON.parse(LoadFile("","package"));
 
 Print(`Iniciando`,TypePrint.info);
 

@@ -2,7 +2,7 @@ import { join } from "path";
 import { about } from ".";
 
 const fs = require('fs');
-const _path = join(process.cwd(), '..','plugins','dynamiclight');
+const _path = Dir();
 
 export function LoadFile(path: string, name: string, type: string = "json", default_data: string = "{}"): string{
     if(path == "") path = `${_path}/`;
@@ -124,4 +124,10 @@ export function Print(message: string, type: TypePrint = TypePrint.default){
             break;
         }
     }
+}
+
+function Dir(){
+    if (fs.existsSync(`${join(process.cwd(), '..','plugins','dynamiclight')}/package.json`))
+        return join(process.cwd(), '..','plugins','dynamiclight');
+    return "../node_modules/@bdsx/dynamiclight";
 }

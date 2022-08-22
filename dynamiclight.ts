@@ -4,15 +4,17 @@ import { CommandPermissionLevel } from "bdsx/bds/command";
 import { command } from "bdsx/command";
 import { events } from "bdsx/event";
 import { bedrockServer } from "bdsx/launcher";
+import { serverProperties } from "bdsx/serverproperties";
 import { getCode, LoadFile, MapToString, Print, Random, SaveFile, StringToMap, Time, TypePrint } from "./utils";
 
-const Light = StringToMap(LoadFile("@","db","json","[]"),"name");
+const Light = StringToMap(LoadFile(`worlds/${serverProperties["level-name"]}`,"db","json","[]"),"name");
 const EItems = new Map<any,any>();
 
-let items = JSON.parse(LoadFile("@","items","json",'[{"name":"minecraft:torch","light":15}]'));
+let items = JSON.parse(LoadFile("","items","json",'[{"name":"minecraft:torch","light":15}]'));
 
 function reload(){
-    items = JSON.parse(LoadFile("@","items"));
+    items = JSON.parse(LoadFile("","items","json",'[{"name":"minecraft:torch","light":15}]'));
+    Print(`Items (${items.length})`,TypePrint.info);
 }
 
 reload();
@@ -27,7 +29,7 @@ command.register('dynamiclight', "permissions.command.light.info",CommandPermiss
 let _time = 0;
 events.levelTick.on(ev => {
     if(Time() > _time){
-        SaveFile("@","db",MapToString(Light));
+        SaveFile(`worlds/${serverProperties["level-name"]}`,"db",MapToString(Light));
         _time = Time() + 30000;
     }
 });

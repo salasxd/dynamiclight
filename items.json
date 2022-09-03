@@ -1,232 +1,239 @@
-[
-    {
-        "name": "minecraft:torch",
-        "underwater": false,
-        "light": 15
-    },
-    {
-        "name": "minecraft:orange_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:white_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:green_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:brown_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:red_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:magenta_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:pink_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:black_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:yellow_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:purple_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:blue_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:cyan_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:lime_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:gray_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:light_gray_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:light_blue_candle",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:sea_pickle",
-        "underwater": false,
-        "light": 4
-    },
-    {
-        "name": "minecraft:redstone_torch",
-        "underwater": false,
-        "light": 8
-    },
-    {
-        "name": "minecraft:shroomlight",
-        "underwater": true,
-        "light": 13
-    },
-    {
-        "name": "minecraft:redstone",
-        "underwater": false,
-        "light": 4
-    },
-    {
-        "name": "minecraft:magma_cream",
-        "underwater": false,
-        "light": 1
-    },
-    {
-        "name": "minecraft:enchanted_book",
-        "underwater": true,
-        "light": 5
-    },
-    {
-        "name": "minecraft:redstone_block",
-        "underwater": false,
-        "light": 4
-    },
-    {
-        "name": "minecraft:soul_lantern",
-        "underwater": true,
-        "light": 15
-    },
-    {
-        "name": "minecraft:lantern",
-        "underwater": true,
-        "light": 15
-    },
-    {
-        "name": "minecraft:experience_bottle",
-        "underwater": true,
-        "light": 4
-    },
-    {
-        "name": "minecraft:soul_torch",
-        "underwater": false,
-        "light": 15
-    },
-    {
-        "name": "minecraft:lit_pumpkin",
-        "underwater": false,
-        "light": 15
-    },
-    {
-        "name": "minecraft:magma",
-        "underwater": false,
-        "light": 5
-    },
-    {
-        "name": "minecraft:ochre_froglight",
-        "underwater": true,
-        "light": 15
-    },
-    {
-        "name": "minecraft:verdant_froglight",
-        "underwater": true,
-        "light": 15
-    },
-    {
-        "name": "minecraft:pearlescent_froglight",
-        "underwater": true,
-        "light": 15
-    },
-    {
-        "name": "minecraft:crying_obsidian",
-        "underwater": true,
-        "light": 10
-    },
-    {
-        "name": "minecraft:glow_frame",
-        "underwater": true,
-        "light": 2
-    },
-    {
-        "name": "minecraft:glowstone",
-        "underwater": true,
-        "light": 15
-    },
-    {
-        "name": "minecraft:glowstone_dust",
-        "underwater": true,
-        "light": 7
-    },
-    {
-        "name": "minecraft:lava_bucket",
-        "underwater": false,
-        "light": 15
-    },
-    {
-        "name": "minecraft:campfire",
-        "underwater": false,
-        "light": 15
-    },
-    {
-        "name": "minecraft:soul_campfire",
-        "underwater": false,
-        "light": 15
-    },
-    {
-        "name": "minecraft:blaze_powder",
-        "underwater": true,
-        "light": 5
-    },
-    {
-        "name": "minecraft:blaze_rod",
-        "underwater": true,
-        "light": 3
-    },
-    {
-        "name": "minecraft:nether_star",
-        "underwater": true,
-        "light": 6
-    },
-    {
-        "name": "minecraft:enchanting_table",
-        "underwater": true,
-        "light": 8
-    },
-    {
-        "name": "minecraft:glow_ink_sac",
-        "underwater": true,
-        "light": 6
-    }
-]
+{
+    "data": [
+        {
+            "name": "minecraft:torch",
+            "underwater": false,
+            "light": 15
+        },
+        {
+            "name": "minecraft:orange_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:white_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:green_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:brown_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:red_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:magenta_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:pink_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:black_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:yellow_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:purple_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:blue_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:cyan_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:lime_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:gray_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:light_gray_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:light_blue_candle",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:sea_pickle",
+            "underwater": true,
+            "light": 4
+        },
+        {
+            "name": "minecraft:redstone_torch",
+            "underwater": false,
+            "light": 8
+        },
+        {
+            "name": "minecraft:shroomlight",
+            "underwater": true,
+            "light": 13
+        },
+        {
+            "name": "minecraft:redstone",
+            "underwater": false,
+            "light": 4
+        },
+        {
+            "name": "minecraft:magma_cream",
+            "underwater": false,
+            "light": 1
+        },
+        {
+            "name": "minecraft:enchanted_book",
+            "underwater": true,
+            "light": 5
+        },
+        {
+            "name": "minecraft:redstone_block",
+            "underwater": false,
+            "light": 4
+        },
+        {
+            "name": "minecraft:soul_lantern",
+            "underwater": true,
+            "light": 15
+        },
+        {
+            "name": "minecraft:lantern",
+            "underwater": true,
+            "light": 15
+        },
+        {
+            "name": "minecraft:experience_bottle",
+            "underwater": true,
+            "light": 4
+        },
+        {
+            "name": "minecraft:soul_torch",
+            "underwater": false,
+            "light": 15
+        },
+        {
+            "name": "minecraft:lit_pumpkin",
+            "underwater": false,
+            "light": 15
+        },
+        {
+            "name": "minecraft:magma",
+            "underwater": false,
+            "light": 5
+        },
+        {
+            "name": "minecraft:ochre_froglight",
+            "underwater": true,
+            "light": 15
+        },
+        {
+            "name": "minecraft:verdant_froglight",
+            "underwater": true,
+            "light": 15
+        },
+        {
+            "name": "minecraft:pearlescent_froglight",
+            "underwater": true,
+            "light": 15
+        },
+        {
+            "name": "minecraft:crying_obsidian",
+            "underwater": true,
+            "light": 10
+        },
+        {
+            "name": "minecraft:glow_frame",
+            "underwater": true,
+            "light": 2
+        },
+        {
+            "name": "minecraft:glowstone",
+            "underwater": true,
+            "light": 15
+        },
+        {
+            "name": "minecraft:glowstone_dust",
+            "underwater": true,
+            "light": 7
+        },
+        {
+            "name": "minecraft:lava_bucket",
+            "underwater": false,
+            "light": 15
+        },
+        {
+            "name": "minecraft:campfire",
+            "underwater": false,
+            "light": 15
+        },
+        {
+            "name": "minecraft:soul_campfire",
+            "underwater": false,
+            "light": 15
+        },
+        {
+            "name": "minecraft:blaze_powder",
+            "underwater": true,
+            "light": 5
+        },
+        {
+            "name": "minecraft:blaze_rod",
+            "underwater": true,
+            "light": 3
+        },
+        {
+            "name": "minecraft:nether_star",
+            "underwater": true,
+            "light": 6
+        },
+        {
+            "name": "minecraft:enchanting_table",
+            "underwater": true,
+            "light": 8
+        },
+        {
+            "name": "minecraft:glow_ink_sac",
+            "underwater": true,
+            "light": 6
+        },
+        {
+            "name": "minecraft:enchanted_golden_apple",
+            "underwater": false,
+            "light": 8
+        }
+    ]
+}

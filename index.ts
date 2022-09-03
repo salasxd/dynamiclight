@@ -11,13 +11,6 @@ events.serverOpen.on(()=>{
     Print(`v${about.version}`,TypePrint.succes);
 });
 
-events.error.on(err=>{
-    Print('ERR: '+ err.message,TypePrint.error);
-    let data = `${LoadFile("","log","txt","")}\n[${DateFromTime(Time())}] ${err.toString()}`;
-    SaveFile("","log",data,"txt");
-    return CANCEL;
-});
-
 events.serverClose.on(()=>{
     Print(`Cerrando`,TypePrint.info);
 });

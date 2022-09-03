@@ -44,9 +44,14 @@ export function SaveFile(path: string,name: string,data: string, type: string = 
  */
 export function StringToMap(data: string, key: string): Map<any,any>{
     const map = new Map<any,any>();
-    for (const [_key, _value] of Object.entries(data)) {
-        if(key == _key)
-            map.set(_key, _value);
+    const json = JSON.parse(data);
+    for(const _data of json.data){
+        for(const _key of Object.keys(_data)){
+            if(key == _key){
+                map.set(_data[_key], _data);
+                break;
+            }
+        }
     }
     return map;
 }
@@ -59,8 +64,13 @@ export enum TypePrint {
     default
 }
 
-export function Time(): number{
-    return new Date().getTime();
+/**
+ *
+ * @param seconds add seconds in time
+ * @returns
+ */
+export function Time(seconds: number = 0): number{
+    return new Date().getTime() + (seconds*1000);
 }
 
 export function DateFromTime(time: number): string{
